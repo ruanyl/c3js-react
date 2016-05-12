@@ -6,7 +6,8 @@
   "scripts": {
     "build": "./node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "build:watch": "./node_modules/babel-cli/bin/babel.js src --out-dir lib --watch",
-    "storybook": "start-storybook -p 9001"
+    "storybook": "start-storybook -p 9001",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "react",
