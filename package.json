@@ -1,6 +1,6 @@
 {
-  "name": "react-c3",
-  "version": "0.1.0",
+  "name": "c3js-react",
+  "version": "0.1.1",
   "description": "c3 react binding",
   "main": "lib/index.js",
   "scripts": {
